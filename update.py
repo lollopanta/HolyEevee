@@ -17,35 +17,31 @@ def update_source():
         source = json.load(f)
 
     releases = get_releases()
-    if not releases:
-        print("No releases found.")
-        return
-
-    # Only pick the latest release
-    latest_release = releases[0]
     
     standard_versions = []
     patched_versions = []
 
-    version_tag = latest_release["tag_name"]
-    date = latest_release["published_at"]
-    formatted_date = date.split("T")[0]
-    changelog = latest_release["body"]
+    for release in releases:
+        version_tag = release["tag_name"]
+        date = release["published_at"]
+        # Format date for AltStore (YYYY-MM-DD)
+        formatted_date = date.split("T")[0]
+        changelog = release["body"]
 
-    for asset in latest_release["assets"]:
-        if asset["name"].endswith(".ipa"):
-            version_obj = {
-                "version": version_tag,
-                "date": formatted_date,
-                "downloadURL": asset["browser_download_url"],
-                "size": asset["size"],
-                "localizedDescription": changelog
-            }
-            
-            if "Patched" in asset["name"]:
-                patched_versions.append(version_obj)
-            else:
-                standard_versions.append(version_obj)
+        for asset in release["assets"]:
+            if asset["name"].endswith(".ipa"):
+                version_obj = {
+                    "version": version_tag,
+                    "date": formatted_date,
+                    "downloadURL": asset["browser_download_url"],
+                    "size": asset["size"],
+                    "localizedDescription": changelog
+                }
+                
+                if "Patched" in asset["name"]:
+                    patched_versions.append(version_obj)
+                else:
+                    standard_versions.append(version_obj)
 
     # Update apps in source
     for app in source["apps"]:
