@@ -28,8 +28,13 @@ def update_source():
         formatted_date = date.split("T")[0]
         changelog = release["body"]
 
+        # Track if we've already added an IPA for this release to prevent duplicates
+        has_standard = False
+        has_patched = False
+
         for asset in release["assets"]:
-            if asset["name"].endswith(".ipa"):
+            asset_name = asset["name"].lower()
+            if asset_name.endswith(".ipa"):
                 version_obj = {
                     "version": version_tag,
                     "date": formatted_date,
@@ -38,10 +43,15 @@ def update_source():
                     "localizedDescription": changelog
                 }
                 
-                if "Patched" in asset["name"]:
-                    patched_versions.append(version_obj)
+                # Use case-insensitive check and ensure we only take the first matching IPA per category
+                if "patched" in asset_name:
+                    if not has_patched:
+                        patched_versions.append(version_obj)
+                        has_patched = True
                 else:
-                    standard_versions.append(version_obj)
+                    if not has_standard:
+                        standard_versions.append(version_obj)
+                        has_standard = True
 
     # Update apps in source
     for app in source["apps"]:
