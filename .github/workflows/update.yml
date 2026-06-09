@@ -1,0 +1,32 @@
+name: Update AltStore Source
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Hourly
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/with-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Update source
+        run: python update.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add apps.json
+          git commit -m "chore: auto-update apps.json [skip ci]" || echo "No changes to commit"
+          git push

@@ -1,0 +1,363 @@
+{
+  "name": "EeveeIPA Source",
+  "identifier": "com.holyspotify.source",
+  "subtitle": "Auto-updating EeveeIPA releases",
+  "description": "An AltStore source for EeveeIPA, automatically updated from GitHub releases.",
+  "iconURL": "https://raw.githubusercontent.com/SpotCompiled/SpotveeC/main/Assets/AppIcon.png",
+  "website": "https://github.com/estrogencat/EeveeIPA",
+  "tintColor": "#1ED760",
+  "apps": [
+    {
+      "name": "Eevee Spotify",
+      "bundleIdentifier": "com.eevee.spotify",
+      "developerName": "estrogencat",
+      "subtitle": "Spotify with EeveeSpotify tweak",
+      "localizedDescription": "A tweaked version of Spotify with EeveeSpotify enhancements.",
+      "iconURL": "https://raw.githubusercontent.com/SpotCompiled/SpotveeC/main/Assets/AppIcon.png",
+      "tintColor": "#1ED760",
+      "versions": [
+        {
+          "version": "9.1.58-6.6.4-2026-06-09-08-10-23",
+          "date": "2026-06-09",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.58-6.6.4-2026-06-09-08-10-23/TestFlight-ES-9.1.58-ESR-6.6.4-patched.ipa",
+          "size": 120050155,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.58-6.6.4-2026-06-09-08-10-23",
+          "date": "2026-06-09",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.58-6.6.4-2026-06-09-08-10-23/TestFlight-ES-9.1.58-ESR-6.6.4.ipa",
+          "size": 113548430,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-06-07-06-51-57",
+          "date": "2026-06-07",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-06-07-06-51-57/TestFlight-ES-9.1.54-ESR-6.6.4-patched.ipa",
+          "size": 119556728,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-06-07-06-51-57",
+          "date": "2026-06-07",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-06-07-06-51-57/TestFlight-ES-9.1.54-ESR-6.6.4.ipa",
+          "size": 113073007,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-06-07-03-44-39",
+          "date": "2026-06-07",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-06-07-03-44-39/TestFlight-ES-9.1.54-ESR-6.6.4-patched.ipa",
+          "size": 119544325,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-06-07-03-44-39",
+          "date": "2026-06-07",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-06-07-03-44-39/TestFlight-ES-9.1.54-ESR-6.6.4.ipa",
+          "size": 113060581,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-06-06-06-35-45",
+          "date": "2026-06-06",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-06-06-06-35-45/TestFlight-ES-9.1.54-ESR-6.6.4-patched.ipa",
+          "size": 119093345,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-06-06-06-35-45",
+          "date": "2026-06-06",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-06-06-06-35-45/TestFlight-ES-9.1.54-ESR-6.6.4.ipa",
+          "size": 115611568,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.3.1-2026-06-07-03-31-15",
+          "date": "2026-06-07",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.3.1-2026-06-07-03-31-15/TestFlight-ES-9.1.54-ESR-6.6.3.1.ipa",
+          "size": 112849871,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.48-6.6.4-2026-06-07-04-36-40",
+          "date": "2026-06-07",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-6.6.4-2026-06-07-04-36-40/TestFlight-ES-9.1.48-ESR-6.6.4-patched.ipa",
+          "size": 119019322,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.48-6.6.4-2026-06-07-04-36-40",
+          "date": "2026-06-07",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-6.6.4-2026-06-07-04-36-40/TestFlight-ES-9.1.48-ESR-6.6.4.ipa",
+          "size": 112621958,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-30-18-03-15",
+          "date": "2026-05-30",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-30-18-03-15/TestFlight-9.1.54-Swift-6.6.4-patched.ipa",
+          "size": 119095752,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-30-18-03-15",
+          "date": "2026-05-30",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-30-18-03-15/TestFlight-9.1.54-Swift-6.6.4.ipa",
+          "size": 112612935,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-28-20-18-48",
+          "date": "2026-05-28",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-28-20-18-48/TestFlight-9.1.54-Swift-6.6.4-patched.ipa",
+          "size": 118277647,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-28-20-18-48",
+          "date": "2026-05-28",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-28-20-18-48/TestFlight-9.1.54-Swift-6.6.4.ipa",
+          "size": 115614564,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-27-19-09-10",
+          "date": "2026-05-27",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-27-19-09-10/TestFlight-9.1.54-Swift-6.6.4-patched.ipa",
+          "size": 118200469,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-27-19-09-10",
+          "date": "2026-05-27",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-27-19-09-10/TestFlight-9.1.54-Swift-6.6.4.ipa",
+          "size": 115535298,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-26-02-04-32",
+          "date": "2026-05-26",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-26-02-04-32/TestFlight-9.1.54-Swift-6.6.4-patched.ipa",
+          "size": 118189630,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-26-02-04-32",
+          "date": "2026-05-26",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-26-02-04-32/TestFlight-9.1.54-Swift-6.6.4.ipa",
+          "size": 115533240,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-25-20-16-12",
+          "date": "2026-05-25",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-25-20-16-12/TestFlight-9.1.54-Swift-6.6.4-patched.ipa",
+          "size": 118965867,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-25-20-16-12",
+          "date": "2026-05-25",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-25-20-16-12/TestFlight-9.1.54-Swift-6.6.4.ipa",
+          "size": 116305338,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-23-15-11-53",
+          "date": "2026-05-23",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-23-15-11-53/TestFlight-9.1.54-Swift-6.6.4-patched.ipa",
+          "size": 118990054,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.54-6.6.4-2026-05-23-15-11-53",
+          "date": "2026-05-23",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-05-23-15-11-53/TestFlight-9.1.54-Swift-6.6.4.ipa",
+          "size": 116320458,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.52-6.6.4-2026-05-21-00-58-31",
+          "date": "2026-05-21",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.52-6.6.4-2026-05-21-00-58-31/TestFlight-9.1.52-Swift-6.6.4-patched.ipa",
+          "size": 118468116,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\r\n\r\n* **this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P**\r\n### original changelog:\r\n\r\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\r\n"
+        },
+        {
+          "version": "9.1.52-6.6.4-2026-05-21-00-58-31",
+          "date": "2026-05-21",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.52-6.6.4-2026-05-21-00-58-31/TestFlight-9.1.52-Swift-6.6.4.ipa",
+          "size": 115805366,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\r\n\r\n* **this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P**\r\n### original changelog:\r\n\r\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\r\n"
+        },
+        {
+          "version": "9.1.48-6.6.4-2026-05-30-18-15-11",
+          "date": "2026-05-30",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-6.6.4-2026-05-30-18-15-11/ES-9.1.48-Swift-6.6.4-patched.ipa",
+          "size": 118556691,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.48-6.6.4-2026-05-30-18-15-11",
+          "date": "2026-05-30",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-6.6.4-2026-05-30-18-15-11/ES-9.1.48-Swift-6.6.4.ipa",
+          "size": 112160657,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.48-6.6.4-2026-05-21-01-18-18",
+          "date": "2026-05-21",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-6.6.4-2026-05-21-01-18-18/EeveeSpotify-9.1.48-Swift-6.6.4-patched.ipa",
+          "size": 118362498,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.48-6.6.4-2026-05-21-01-18-18",
+          "date": "2026-05-21",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-6.6.4-2026-05-21-01-18-18/EeveeSpotify-9.1.48-Swift-6.6.4.ipa",
+          "size": 115725194,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        },
+        {
+          "version": "9.1.48-1",
+          "date": "2026-05-19",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-1/ES-patched.ipa",
+          "size": 117245973,
+          "localizedDescription": "# Changelog\r\n- Update to 9.1.48\r\n- [Update Tweak to 6.6.4](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/actions/runs/26101703670/artifacts/7085652159)\r\n- SponsorBlock is in BETA! it does not currently work\r\n- App Icon changing added"
+        },
+        {
+          "version": "9.1.48-1",
+          "date": "2026-05-19",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-1/ES.ipa",
+          "size": 114613770,
+          "localizedDescription": "# Changelog\r\n- Update to 9.1.48\r\n- [Update Tweak to 6.6.4](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/actions/runs/26101703670/artifacts/7085652159)\r\n- SponsorBlock is in BETA! it does not currently work\r\n- App Icon changing added"
+        },
+        {
+          "version": "9.1.46",
+          "date": "2026-05-14",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.46/9.1.46-Swift-6.6.3-patched.ipa",
+          "size": 116020024,
+          "localizedDescription": "# Changelog\r\n- Update to 9.1.46\r\n- [Update Tweak to 6.6.3](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/releases/download/v6.6.3/com.eevee.spotify_6.6.3_iphoneos-arm_arm64.deb)"
+        },
+        {
+          "version": "9.1.46",
+          "date": "2026-05-14",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.46/9.1.46-Swift-6.6.3.ipa",
+          "size": 113391695,
+          "localizedDescription": "# Changelog\r\n- Update to 9.1.46\r\n- [Update Tweak to 6.6.3](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/releases/download/v6.6.3/com.eevee.spotify_6.6.3_iphoneos-arm_arm64.deb)"
+        },
+        {
+          "version": "9.1.40-new",
+          "date": "2026-04-22",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.40-new/EeveeSpotify-patched.ipa",
+          "size": 102584991,
+          "localizedDescription": "# Changelog\r\n- Update to 9.1.40\r\n- [Update Tweak to 6.6.2](https://github.com/jaydenjcpy/EeveeSpotifyRevivedPublic/actions/runs/24777626535/artifacts/6577845165)"
+        },
+        {
+          "version": "9.1.40-new",
+          "date": "2026-04-22",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.40-new/EeveeSpotify.ipa",
+          "size": 100276365,
+          "localizedDescription": "# Changelog\r\n- Update to 9.1.40\r\n- [Update Tweak to 6.6.2](https://github.com/jaydenjcpy/EeveeSpotifyRevivedPublic/actions/runs/24777626535/artifacts/6577845165)"
+        },
+        {
+          "version": "9.1.22-new",
+          "date": "2026-02-13",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.22-new/EeveeSpotify-9.1.22-Swift-6.5.3.ipa",
+          "size": 97464947,
+          "localizedDescription": "# Changelog\r\n- Update to 9.1.22\r\n- Update Tweak to 6.5.3\r\n- EeveeSpotify settings are now in a gear in the top right corner of the Settings page of Spotify, if it doesn't show, change your app language to English.\r\n<img width=\"1112\" height=\"1280\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ad071108-873c-414f-bc9f-1ad513400f31\" />\r\n\r\n<b>\r\n\r\n<img width=\"305\" height=\"21\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7a75bae5-1859-4bba-9413-136d7d822df5\" /> fuck github im not reuploading the patched ipa\r\n"
+        },
+        {
+          "version": "9.1.22-new",
+          "date": "2026-02-13",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.22-new/JailbreakOnly.EeveeSpotify-9.1.22-Swift-6.5.3.ipa",
+          "size": 99599686,
+          "localizedDescription": "# Changelog\r\n- Update to 9.1.22\r\n- Update Tweak to 6.5.3\r\n- EeveeSpotify settings are now in a gear in the top right corner of the Settings page of Spotify, if it doesn't show, change your app language to English.\r\n<img width=\"1112\" height=\"1280\" alt=\"image\" src=\"https://github.com/user-attachments/assets/ad071108-873c-414f-bc9f-1ad513400f31\" />\r\n\r\n<b>\r\n\r\n<img width=\"305\" height=\"21\" alt=\"image\" src=\"https://github.com/user-attachments/assets/7a75bae5-1859-4bba-9413-136d7d822df5\" /> fuck github im not reuploading the patched ipa\r\n"
+        },
+        {
+          "version": "9.1.18-new",
+          "date": "2026-02-08",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.18-new/sidestore.ipa",
+          "size": 97002880,
+          "localizedDescription": "# Changelog \r\n- \r\n- "
+        },
+        {
+          "version": "9.1.16-new",
+          "date": "2026-02-02",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.16-new/sidestore.ipa",
+          "size": 94724657,
+          "localizedDescription": "# Changelog\r\n- Change repos AGAIN\r\n- Update to 9.1.16\r\n- Update to Swift 6.5.1\r\n\r\nBuilt at [meowra1n/new](https://github.com/meowra1n/new/)\r\n\r\nFork used [elbing/EeveeSpotifyRevivedPublic](https://github.com/elbing/EeveeSpotifyRevivedPublic)\r\n"
+        },
+        {
+          "version": "ios-15-latest",
+          "date": "2026-02-02",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/ios-15-latest/sidestore.ipa",
+          "size": 82359512,
+          "localizedDescription": "# Changelog\r\n- rip iOS 15 tweak updates, spotify crashes with newest tweak."
+        },
+        {
+          "version": "patch-53",
+          "date": "2026-01-19",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/patch-53/sidestore.ipa",
+          "size": 96344998,
+          "localizedDescription": "fix yo tweak bro please"
+        },
+        {
+          "version": "9.1.12-new",
+          "date": "2026-01-15",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.12-new/EeveeSpotify-9.1.12-Swift-6.5.0.ipa",
+          "size": 89697212,
+          "localizedDescription": "# Changelog\r\n- update to spotify 9.1.12\r\n- update to swift 6.5.0\r\n- Re added Musixmatch lyrics option\r\n\r\ni am losing motivation, the tweak provided by Meeep1 is broken when being put through the action and required me to mess around with both the \"official\" IPA and my own IPA to get the working EeveeSpotify.dylib into mine. this took 3 hours because iOS is such a pain in the ass to mess around with and is overall just confusing. i would fix it myself if i could \r\n\r\n\r\ndlopen(/private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Spotify, 0x0109): Symbol not found: _$s13SwiftProtobuf7DecoderP14decodeMapField9fieldType5valueyAA01_b7MessageE0Vyqd__qd_0_Gm_SDy04BaseH0Qyd__qd_0_GztKAA0e3KeyH0Rd__SHRd_0_AA0J0Rd_0_r0_lFTj\r\n\u00a0 Referenced from: <06368551-DF9E-38E6-AB86-B9BA2AF98489> /private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Frameworks/EeveeSpotify.dylib\r\n\u00a0 Expected in: \u00a0 \u00a0 <E93D670B-A598-3CDD-9FD2-0113BCFF5C2C> /private/var/mobile/Containers/Data/Application/E50D938A-F608-4869-80A2-001B0DFDFEC2/Documents/Applications/com.spotify.client_790191447.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf"
+        },
+        {
+          "version": "9.1.6-new",
+          "date": "2026-01-02",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.6-new/sidestore.ipa",
+          "size": 95808186,
+          "localizedDescription": "# Changelog\r\n- update to spotify 9.1.6\r\n- update to swift 6.4.8(?)\r\nThis version uses a [different repo]( https://github.com/Meeep1/EeveeSpotifyRevivedPublic) for the tweak as the original EeveeSpotify was discontinued, and lyrics do not work properly.\r\nSigning in also seems to be spotty. If you cannot sign in, install 9.1.0 first to sign in then update."
+        },
+        {
+          "version": "patch-38",
+          "date": "2025-12-26",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/patch-38/sidestore.ipa",
+          "size": 95159030,
+          "localizedDescription": ""
+        },
+        {
+          "version": "9.1.0-SideStore",
+          "date": "2025-11-29",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.0-SideStore/sidestore.ipa",
+          "size": 94526238,
+          "localizedDescription": "# Changelog\r\n- update to 9.1.0"
+        },
+        {
+          "version": "9.0.98-SideStore",
+          "date": "2025-11-23",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.0.98-SideStore/sidestore.ipa",
+          "size": 93921078,
+          "localizedDescription": "# Changelog\r\n- update to 9.0.98"
+        }
+      ]
+    },
+    {
+      "name": "Eevee Spotify (Patched)",
+      "bundleIdentifier": "com.eevee.spotify.patched",
+      "developerName": "estrogencat",
+      "subtitle": "Spotify with EeveeSpotify tweak (Patched)",
+      "localizedDescription": "A patched version of Spotify with EeveeSpotify enhancements, suitable for TrollStore or paid certificates.",
+      "iconURL": "https://raw.githubusercontent.com/SpotCompiled/SpotveeC/main/Assets/AppIcon.png",
+      "tintColor": "#1ED760",
+      "versions": [
+        {
+          "version": "9.1.54-6.6.3.1-2026-06-07-03-31-15",
+          "date": "2026-06-07",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.3.1-2026-06-07-03-31-15/TestFlight-ES-9.1.54-ESR-6.6.3.1-Patched.ipa",
+          "size": 119333327,
+          "localizedDescription": "# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
+        }
+      ]
+    }
+  ],
+  "news": []
+}
