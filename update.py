@@ -23,11 +23,17 @@ def update_source():
     patched_versions_dict = {}
 
     for release in releases:
-        version_tag = release["tag_name"]
+        tag_name = release["tag_name"]
+        # Extract base version (e.g., "9.1.58" from "9.1.58-6.6.4-...")
+        # AltStore requires this to match the internal CFBundleShortVersionString
+        base_version = tag_name.split("-")[0]
+        
         date = release["published_at"]
         # Format date for AltStore (YYYY-MM-DD)
         formatted_date = date.split("T")[0]
-        changelog = release["body"]
+        
+        # Include the full tag in the description so users know the tweak version
+        changelog = f"Build: {tag_name}\n\n" + release["body"]
 
         # Track if we've already added an IPA for this release object
         has_standard_in_release = False
@@ -37,7 +43,7 @@ def update_source():
             asset_name = asset["name"].lower()
             if asset_name.endswith(".ipa"):
                 version_obj = {
-                    "version": version_tag,
+                    "version": base_version,
                     "date": formatted_date,
                     "downloadURL": asset["browser_download_url"],
                     "size": asset["size"],
@@ -45,12 +51,12 @@ def update_source():
                 }
                 
                 if "patched" in asset_name:
-                    if not has_patched_in_release and version_tag not in patched_versions_dict:
-                        patched_versions_dict[version_tag] = version_obj
+                    if not has_patched_in_release and base_version not in patched_versions_dict:
+                        patched_versions_dict[base_version] = version_obj
                         has_patched_in_release = True
                 else:
-                    if not has_standard_in_release and version_tag not in standard_versions_dict:
-                        standard_versions_dict[version_tag] = version_obj
+                    if not has_standard_in_release and base_version not in standard_versions_dict:
+                        standard_versions_dict[base_version] = version_obj
                         has_standard_in_release = True
 
     # Convert dictionaries back to lists and sort by date (descending)
