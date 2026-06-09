@@ -80,14 +80,14 @@
           "localizedDescription": "Build: 9.1.16-new\n\n# Changelog\r\n- Change repos AGAIN\r\n- Update to 9.1.16\r\n- Update to Swift 6.5.1\r\n\r\nBuilt at [meowra1n/new](https://github.com/meowra1n/new/)\r\n\r\nFork used [elbing/EeveeSpotifyRevivedPublic](https://github.com/elbing/EeveeSpotifyRevivedPublic)\r\n"
         },
         {
-          "version": "ios",
+          "version": "15",
           "date": "2026-02-02",
           "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/ios-15-latest/sidestore.ipa",
           "size": 82359512,
           "localizedDescription": "Build: ios-15-latest\n\n# Changelog\r\n- rip iOS 15 tweak updates, spotify crashes with newest tweak."
         },
         {
-          "version": "patch",
+          "version": "53",
           "date": "2026-01-19",
           "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/patch-53/sidestore.ipa",
           "size": 96344998,
@@ -106,6 +106,13 @@
           "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.6-new/sidestore.ipa",
           "size": 95808186,
           "localizedDescription": "Build: 9.1.6-new\n\n# Changelog\r\n- update to spotify 9.1.6\r\n- update to swift 6.4.8(?)\r\nThis version uses a [different repo]( https://github.com/Meeep1/EeveeSpotifyRevivedPublic) for the tweak as the original EeveeSpotify was discontinued, and lyrics do not work properly.\r\nSigning in also seems to be spotty. If you cannot sign in, install 9.1.0 first to sign in then update."
+        },
+        {
+          "version": "38",
+          "date": "2025-12-26",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/patch-38/sidestore.ipa",
+          "size": 95159030,
+          "localizedDescription": "Build: patch-38\n\n"
         },
         {
           "version": "9.1.0",

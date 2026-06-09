@@ -24,9 +24,18 @@ def update_source():
 
     for release in releases:
         tag_name = release["tag_name"]
+        
         # Extract base version (e.g., "9.1.58" from "9.1.58-6.6.4-...")
-        # AltStore requires this to match the internal CFBundleShortVersionString
-        base_version = tag_name.split("-")[0]
+        # We look for the first part that looks like a version number
+        parts = tag_name.split("-")
+        base_version = None
+        for part in parts:
+            if part[0].isdigit():
+                base_version = part
+                break
+        
+        if not base_version:
+            continue # Skip tags that don't contain a version number (like "ios-15-latest")
         
         date = release["published_at"]
         # Format date for AltStore (YYYY-MM-DD)
