@@ -18,8 +18,9 @@ def update_source():
 
     releases = get_releases()
     
-    standard_versions = []
-    patched_versions = []
+    # Use dictionaries to ensure version uniqueness
+    standard_versions_dict = {}
+    patched_versions_dict = {}
 
     for release in releases:
         version_tag = release["tag_name"]
@@ -28,9 +29,9 @@ def update_source():
         formatted_date = date.split("T")[0]
         changelog = release["body"]
 
-        # Track if we've already added an IPA for this release to prevent duplicates
-        has_standard = False
-        has_patched = False
+        # Track if we've already added an IPA for this release object
+        has_standard_in_release = False
+        has_patched_in_release = False
 
         for asset in release["assets"]:
             asset_name = asset["name"].lower()
@@ -43,15 +44,18 @@ def update_source():
                     "localizedDescription": changelog
                 }
                 
-                # Use case-insensitive check and ensure we only take the first matching IPA per category
                 if "patched" in asset_name:
-                    if not has_patched:
-                        patched_versions.append(version_obj)
-                        has_patched = True
+                    if not has_patched_in_release and version_tag not in patched_versions_dict:
+                        patched_versions_dict[version_tag] = version_obj
+                        has_patched_in_release = True
                 else:
-                    if not has_standard:
-                        standard_versions.append(version_obj)
-                        has_standard = True
+                    if not has_standard_in_release and version_tag not in standard_versions_dict:
+                        standard_versions_dict[version_tag] = version_obj
+                        has_standard_in_release = True
+
+    # Convert dictionaries back to lists and sort by date (descending)
+    standard_versions = sorted(standard_versions_dict.values(), key=lambda x: x["date"], reverse=True)
+    patched_versions = sorted(patched_versions_dict.values(), key=lambda x: x["date"], reverse=True)
 
     # Update apps in source
     for app in source["apps"]:
