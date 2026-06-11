@@ -3,8 +3,8 @@
   "identifier": "com.holyspotify.source",
   "subtitle": "Auto-updating EeveeIPA releases",
   "description": "An AltStore source for EeveeIPA, automatically updated from GitHub releases.",
-  "iconURL": "https://raw.githubusercontent.com/SpotCompiled/SpotveeC/main/Assets/AppIcon.png",
-  "website": "https://github.com/estrogencat/EeveeIPA",
+  "iconURL": "https://i.imgur.com/p6DtdKQ.png",
+  "website": "https://github.com/lollopanta/HolyEevee",
   "tintColor": "#1ED760",
   "apps": [
     {
