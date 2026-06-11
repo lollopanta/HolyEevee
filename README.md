@@ -2,6 +2,10 @@
 
 A self-updating AltStore/SideStore source for [EeveeIPA](https://github.com/estrogencat/EeveeIPA).
 
+<a href="https://stikstore.app/altdirect/?url=https://raw.githubusercontent.com/lollopanta/HolyEevee/main/apps.json" target="_blank">
+<img src="https://github.com/CelloSerenity/altdirect/blob/main/assets/png/AltSource_Blue.png?raw=true" alt="Add AltSource" width="200">
+</a>
+
 ## 🚀 AltStore Source URL
 
 To add this source to AltStore or SideStore, copy and paste the following URL:
