@@ -19,6 +19,23 @@ https://raw.githubusercontent.com/lollopanta/HolyEevee/main/apps.json
 - **Eevee Spotify**: Standard version (suitable for Sideloadly and other general methods).
 - **Eevee Spotify (Patched)**: Patched version (suitable for TrollStore or paid certificates).
 
+### Supported sideloaders :
+**Use classic with :**
+ - SideStore (recommended)
+ - AltStore Classic
+ - LiveContainer
+
+**Use patched with :**
+ - Feather (recommended*)
+ - ESign
+ - KSign
+- TrollApps
+
+<small>*You can easily install an older version with long-click with Feather.</small>
+
+### Unsupported sideloaders :
+- AltStore PAL
+
 ## 🔄 How it Works
 
 This repository is fully automated. A GitHub Action runs every hour to:
@@ -26,19 +43,33 @@ This repository is fully automated. A GitHub Action runs every hour to:
 2.  Update the `apps.json` file with all available versions.
 3.  Commit and push the changes back to this repo.
 
-## 🛠 Installation
+## 🛠 Installation & Sideloading Info
 
-### AltStore
-1.  Open **AltStore** on your iOS device.
-2.  Go to the **Browse** tab.
-3.  Tap the **Sources** button in the top right corner.
-4.  Tap **Add** and paste the Source URL above.
+### How to choose your sideloader?
 
-### SideStore
-1.  Open **SideStore** on your iOS device.
+*   **[SideStore](https://sidestore.io/):** 3 apps and 10 AppID limit without LiveContainer. PC needed for first installation. Hard to install.
+*   **[Feather](https://feather.khcrysalis.dev/):** Need to buy licence from Apple Developper Program or certficate from a signing service. Avoid KravaSign, Signulous, FlekSt0re and AppsTesters.
+*   **Note on Certificates:** Entreprise certificates (aka "free certs") are not recommended. This method is not reliable, violates Apple's Terms of Service, and may get your iDevice blacklisted.
+
+### Adding the Source
+1.  Open **AltStore** or **SideStore** on your iOS device.
 2.  Go to the **Browse** tab.
-3.  Tap the **Sources** button in the top right corner.
-4.  Tap **+** and paste the Source URL above.
+3.  Tap the **Sources** button (top right).
+4.  Tap **Add** (or **+**) and paste the Source URL above.
+
+## ✨ About EeveeSpotify
+
+This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics.
+
+### 💎 Credits & Dedication
+
+Special thanks to **[estrogencat](https://github.com/estrogencat)** for the [EeveeIPA](https://github.com/estrogencat/EeveeIPA) repository.
+
+*   Credit to **[jaydenjcpy](https://github.com/jaydenjcpy)**: [Star his repo!](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated)
+*   Credit to **[Skye](https://github.com/Meeep1)**: [Star his repo and donate!](https://github.com/Meeep1/EeveeSpotifyRevivedPublic)
+
+Special dedication to **[whoeevee](https://github.com/whoeevee)**, thank you for keeping the project going for these two years <3
+You can still [donate to him](https://github.com/whoeevee) and star his repo :)
 
 ---
-*Maintained by automation. Original IPAs provided by [estrogencat](https://github.com/estrogencat).*
+*Maintained by automation.*
