@@ -3,7 +3,7 @@
   "identifier": "com.holyspotify.source",
   "subtitle": "Auto-updating EeveeIPA releases",
   "description": "An AltStore source for EeveeIPA, automatically updated from GitHub releases.",
-  "iconURL": "https://i.imgur.com/p6DtdKQ.png",
+  "iconURL": "https://raw.githubusercontent.com/lollopanta/HolyEevee/main/SourceIcon.png",
   "website": "https://github.com/lollopanta/HolyEevee",
   "tintColor": "#1ED760",
   "apps": [
@@ -13,7 +13,7 @@
       "developerName": "estrogencat",
       "subtitle": "Spotify with EeveeSpotify tweak",
       "localizedDescription": "A tweaked version of Spotify with EeveeSpotify enhancements.",
-      "iconURL": "https://raw.githubusercontent.com/SpotCompiled/SpotveeC/main/Assets/AppIcon.png",
+      "iconURL": "https://raw.githubusercontent.com/lollopanta/HolyEevee/main/AppIcon.png",
       "tintColor": "#1ED760",
       "versions": [
         {
@@ -59,7 +59,7 @@
       "developerName": "estrogencat",
       "subtitle": "Spotify with EeveeSpotify tweak (Patched)",
       "localizedDescription": "A patched version of Spotify with EeveeSpotify enhancements, suitable for TrollStore or paid certificates.",
-      "iconURL": "https://raw.githubusercontent.com/SpotCompiled/SpotveeC/main/Assets/AppIcon.png",
+      "iconURL": "https://raw.githubusercontent.com/lollopanta/HolyEevee/main/AppIcon.png",
       "tintColor": "#1ED760",
       "versions": [
         {
