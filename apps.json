@@ -9,7 +9,7 @@
   "apps": [
     {
       "name": "Eevee Spotify",
-      "bundleIdentifier": "com.eevee.spotify",
+      "bundleIdentifier": "com.spotify.client",
       "developerName": "estrogencat",
       "subtitle": "Spotify with EeveeSpotify tweak",
       "localizedDescription": "A tweaked version of Spotify with EeveeSpotify enhancements.",

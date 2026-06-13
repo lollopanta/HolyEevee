@@ -79,9 +79,9 @@ def update_source():
 
     # Update apps in source
     for app in source["apps"]:
-        if app["bundleIdentifier"] == "com.eevee.spotify":
+        if app["name"] == "Eevee Spotify":
             app["versions"] = standard_versions
-        elif app["bundleIdentifier"] == "com.eevee.spotify.patched":
+        elif app["name"] == "Eevee Spotify (Patched)":
             app["versions"] = patched_versions
 
     with open(SOURCE_FILE, "w") as f:
