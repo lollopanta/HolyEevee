@@ -36,6 +36,11 @@ def update_source():
         
         if not base_version:
             continue # Skip tags that don't contain a version number (like "ios-15-latest")
+
+        # Clean the version to match CFBundleShortVersionString (typically 3 components, e.g., 9.1.60 instead of 9.1.60.383)
+        version_parts = base_version.split(".")
+        if len(version_parts) > 3:
+            base_version = ".".join(version_parts[:3])
         
         date = release["published_at"]
         # Format date for AltStore (YYYY-MM-DD)
