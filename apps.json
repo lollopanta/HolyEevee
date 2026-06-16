@@ -19,9 +19,9 @@
         {
           "version": "9.1.56",
           "date": "2026-06-16",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.56-6.6.5-2026-06-16-00-12-04/EeveeSpotify-9.1.56-ESR-6.6.5.ipa",
-          "size": 113739400,
-          "localizedDescription": "Build: 9.1.56-6.6.5-2026-06-16-00-12-04\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nImproved :\r\n- Support for Spotify 9.1.56\r\n- LRCLIB lyrics\r\n\r\nNew Icons:\r\n- EvilSpotify \r\n- SpotifyMonochrome\r\n- Greenify\r\n- Eevify\r\n- SmallvileSpotify\r\n- MikuSpotify\r\n- SpotifyDarkBlue\r\n- SpotifyDeepGreen\r\n- SpotifyFrieren\r\n- Supermanify\r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly/Altstore/Sidestore\r\n\r\nCredits for this update:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.56-6.6.5-2026-06-16-01-38-39/EeveeSpotify-9.1.56-ESR-6.6.5.ipa",
+          "size": 113792716,
+          "localizedDescription": "Build: 9.1.56-6.6.5-2026-06-16-01-38-39\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nImproved :\r\n- Support for Spotify 9.1.56\r\n- LRCLIB lyrics\r\n\r\nNew Icons:\r\n- EvilSpotify \r\n- SpotifyMonochrome\r\n- Greenify\r\n- Eevify\r\n- SmallvileSpotify\r\n- MikuSpotify\r\n- SpotifyDarkBlue\r\n- SpotifyDeepGreen\r\n- SpotifyFrieren\r\n- Supermanify\r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly/Altstore/Sidestore\r\n\r\nCredits for this update:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
         },
         {
           "version": "9.1.60",
@@ -50,13 +50,6 @@
           "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-6.6.4-2026-06-11-14-13-50/EeveeSpotify-9.1.48-ESR-6.6.4.ipa",
           "size": 112621681,
           "localizedDescription": "Build: 9.1.48-6.6.4-2026-06-11-14-13-50\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
-        },
-        {
-          "version": "9.1.54",
-          "date": "2026-06-07",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-06-07-06-51-57/TestFlight-ES-9.1.54-ESR-6.6.4.ipa",
-          "size": 113073007,
-          "localizedDescription": "Build: 9.1.54-6.6.4-2026-06-07-06-51-57\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
         }
       ]
     },
@@ -72,9 +65,9 @@
         {
           "version": "9.1.56",
           "date": "2026-06-16",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.56-6.6.5-2026-06-16-00-12-04/EeveeSpotify-9.1.56-ESR-6.6.5-patched.ipa",
-          "size": 120256541,
-          "localizedDescription": "Build: 9.1.56-6.6.5-2026-06-16-00-12-04\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nImproved :\r\n- Support for Spotify 9.1.56\r\n- LRCLIB lyrics\r\n\r\nNew Icons:\r\n- EvilSpotify \r\n- SpotifyMonochrome\r\n- Greenify\r\n- Eevify\r\n- SmallvileSpotify\r\n- MikuSpotify\r\n- SpotifyDarkBlue\r\n- SpotifyDeepGreen\r\n- SpotifyFrieren\r\n- Supermanify\r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly/Altstore/Sidestore\r\n\r\nCredits for this update:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.56-6.6.5-2026-06-16-01-38-39/EeveeSpotify-9.1.56-ESR-6.6.5-patched.ipa",
+          "size": 120290805,
+          "localizedDescription": "Build: 9.1.56-6.6.5-2026-06-16-01-38-39\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nImproved :\r\n- Support for Spotify 9.1.56\r\n- LRCLIB lyrics\r\n\r\nNew Icons:\r\n- EvilSpotify \r\n- SpotifyMonochrome\r\n- Greenify\r\n- Eevify\r\n- SmallvileSpotify\r\n- MikuSpotify\r\n- SpotifyDarkBlue\r\n- SpotifyDeepGreen\r\n- SpotifyFrieren\r\n- Supermanify\r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly/Altstore/Sidestore\r\n\r\nCredits for this update:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
         },
         {
           "version": "9.1.60",
@@ -103,13 +96,6 @@
           "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.48-6.6.4-2026-06-11-14-13-50/EeveeSpotify-9.1.48-ESR-6.6.4-patched.ipa",
           "size": 119019047,
           "localizedDescription": "Build: 9.1.48-6.6.4-2026-06-11-14-13-50\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
-        },
-        {
-          "version": "9.1.54",
-          "date": "2026-06-07",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.54-6.6.4-2026-06-07-06-51-57/TestFlight-ES-9.1.54-ESR-6.6.4-patched.ipa",
-          "size": 119556728,
-          "localizedDescription": "Build: 9.1.54-6.6.4-2026-06-07-06-51-57\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nRelease Notes:\r\n- Updated to Spotify v9.1.48\r\n- Fix crashes \r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly\r\n\r\nCredits:\r\n[faroukbmiled](https://github.com/faroukbmiled)\r\n[zxPluginsInject](https://github.com/asdfzxcvbn/zxPluginsInject)\r\n\r\nCommon Issues:\r\n\r\nhttps://www.reddit.com/r/eeveespotifyipa/comments/1t7e7q9/most_common_errors_and_how_to_solve/\r\n\r\nhttps://github.com/jaydenjcpy/EeveeSpotifyReincarnated/blob/Master/common_issues.md\r\n\r\n*VIEW .TXT FILE*\n"
         }
       ]
     }
