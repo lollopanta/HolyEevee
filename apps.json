@@ -18,10 +18,10 @@
       "versions": [
         {
           "version": "9.1.60",
-          "date": "2026-06-28",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.60-6.6.6-2026-06-28-05-05-40/EeveeSpotify-9.1.60-ESR-6.6.6.ipa",
-          "size": 122279415,
-          "localizedDescription": "Build: 9.1.60-6.6.6-2026-06-28-05-05-40\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nNew Features:\r\n\r\nSpicyLyrics([b9d3014](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/commit/b9d301488653c7ca5ccc61d80dcbba293f9bce88))\r\n\r\nImproved :\r\n\r\nSupport for Spotify 9.1.60\r\n\r\nAll lyrics sources \r\n\r\nNew icons, thx to all submitters\r\n\r\n\r\n**Non-Patched for SideStore, AltStore, sideloadly, LiveContainer, free leaked enterprise cert.\u201d**\r\n\r\n**Patched = for jailbroken, or paid cert**\r\n\r\n**ESign will cause crash**\r\n\r\nCredits:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
+          "date": "2026-06-30",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.60-6.6.6-2026-06-30-02-17-04/EeveeSpotify-9.1.60-ESR-6.6.6.ipa",
+          "size": 122279692,
+          "localizedDescription": "Build: 9.1.60-6.6.6-2026-06-30-02-17-04\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nNew Features:\r\n\r\nSpicyLyrics([b9d3014](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/commit/b9d301488653c7ca5ccc61d80dcbba293f9bce88))\r\n\r\nImproved :\r\n\r\nSupport for Spotify 9.1.60\r\n\r\nAll lyrics sources \r\n\r\nNew icons, thx to all submitters\r\n\r\n\r\n**Non-Patched for SideStore, AltStore, sideloadly, LiveContainer, free leaked enterprise cert.\u201d**\r\n\r\n**Patched = for jailbroken, or paid cert**\r\n\r\n**ESign will cause crash**\r\n\r\nCredits:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
         },
         {
           "version": "9.1.58",
@@ -57,10 +57,10 @@
       "versions": [
         {
           "version": "9.1.60",
-          "date": "2026-06-28",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.60-6.6.6-2026-06-28-05-05-40/EeveeSpotify-9.1.60-ESR-6.6.6-patched.ipa",
-          "size": 129100002,
-          "localizedDescription": "Build: 9.1.60-6.6.6-2026-06-28-05-05-40\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nNew Features:\r\n\r\nSpicyLyrics([b9d3014](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/commit/b9d301488653c7ca5ccc61d80dcbba293f9bce88))\r\n\r\nImproved :\r\n\r\nSupport for Spotify 9.1.60\r\n\r\nAll lyrics sources \r\n\r\nNew icons, thx to all submitters\r\n\r\n\r\n**Non-Patched for SideStore, AltStore, sideloadly, LiveContainer, free leaked enterprise cert.\u201d**\r\n\r\n**Patched = for jailbroken, or paid cert**\r\n\r\n**ESign will cause crash**\r\n\r\nCredits:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
+          "date": "2026-06-30",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.60-6.6.6-2026-06-30-02-17-04/EeveeSpotify-9.1.60-ESR-6.6.6-patched.ipa",
+          "size": 129100279,
+          "localizedDescription": "Build: 9.1.60-6.6.6-2026-06-30-02-17-04\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nNew Features:\r\n\r\nSpicyLyrics([b9d3014](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/commit/b9d301488653c7ca5ccc61d80dcbba293f9bce88))\r\n\r\nImproved :\r\n\r\nSupport for Spotify 9.1.60\r\n\r\nAll lyrics sources \r\n\r\nNew icons, thx to all submitters\r\n\r\n\r\n**Non-Patched for SideStore, AltStore, sideloadly, LiveContainer, free leaked enterprise cert.\u201d**\r\n\r\n**Patched = for jailbroken, or paid cert**\r\n\r\n**ESign will cause crash**\r\n\r\nCredits:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
         },
         {
           "version": "9.1.58",
