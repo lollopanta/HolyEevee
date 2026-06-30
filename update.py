@@ -1,16 +1,57 @@
 import requests
 import json
-import os
-from datetime import datetime
+import plistlib
+import tempfile
+import zipfile
 
 REPO = "estrogencat/EeveeIPA"
 SOURCE_FILE = "apps.json"
+MAX_VERSIONS = 5
+REQUEST_TIMEOUT = 60
+
+session = requests.Session()
 
 def get_releases():
     url = f"https://api.github.com/repos/{REPO}/releases"
-    response = requests.get(url)
+    response = session.get(url, timeout=REQUEST_TIMEOUT)
     response.raise_for_status()
     return response.json()
+
+def get_ipa_metadata(download_url):
+    with tempfile.NamedTemporaryFile(suffix=".ipa") as ipa_file:
+        with session.get(download_url, stream=True, timeout=REQUEST_TIMEOUT) as response:
+            response.raise_for_status()
+            for chunk in response.iter_content(chunk_size=1024 * 1024):
+                if chunk:
+                    ipa_file.write(chunk)
+
+        ipa_file.flush()
+
+        with zipfile.ZipFile(ipa_file.name) as ipa:
+            plist_name = next(
+                name for name in ipa.namelist()
+                if name.startswith("Payload/")
+                and name.endswith(".app/Info.plist")
+                and name.count("/") == 2
+            )
+            info = plistlib.loads(ipa.read(plist_name))
+
+    return {
+        "bundleIdentifier": info["CFBundleIdentifier"],
+        "version": info["CFBundleShortVersionString"],
+        "buildVersion": info["CFBundleVersion"],
+    }
+
+def get_existing_metadata(source):
+    metadata = {}
+    for app in source["apps"]:
+        for version in app.get("versions", []):
+            if version.get("buildVersion"):
+                metadata[version["downloadURL"]] = {
+                    "version": version["version"],
+                    "buildVersion": version["buildVersion"],
+                }
+    return metadata
 
 def update_source():
     with open(SOURCE_FILE, "r") as f:
@@ -20,9 +61,12 @@ def update_source():
     
     # Use dictionaries to ensure version uniqueness
     standard_versions_dict = {}
-    patched_versions_dict = {}
+    metadata_cache = get_existing_metadata(source)
 
     for release in releases:
+        if len(standard_versions_dict) >= MAX_VERSIONS:
+            break
+
         tag_name = release["tag_name"]
         
         # Extract base version (e.g., "9.1.58" from "9.1.58-6.6.4-...")
@@ -51,38 +95,44 @@ def update_source():
 
         # Track if we've already added an IPA for this release object
         has_standard_in_release = False
-        has_patched_in_release = False
 
         for asset in release["assets"]:
             asset_name = asset["name"].lower()
-            if asset_name.endswith(".ipa"):
+            if asset_name.endswith(".ipa") and "patched" not in asset_name:
+                if asset["browser_download_url"] not in metadata_cache:
+                    if not standard_versions_dict:
+                        print(f"Reading metadata from {asset['name']}...", flush=True)
+                        metadata_cache[asset["browser_download_url"]] = get_ipa_metadata(asset["browser_download_url"])
+                    else:
+                        metadata_cache[asset["browser_download_url"]] = {
+                            "version": base_version,
+                            "buildVersion": base_version,
+                        }
+
+                metadata = metadata_cache[asset["browser_download_url"]]
                 version_obj = {
-                    "version": base_version,
+                    "version": metadata["version"],
+                    "buildVersion": metadata["buildVersion"],
                     "date": formatted_date,
                     "downloadURL": asset["browser_download_url"],
                     "size": asset["size"],
                     "localizedDescription": changelog
                 }
                 
-                if "patched" in asset_name:
-                    if not has_patched_in_release and base_version not in patched_versions_dict:
-                        patched_versions_dict[base_version] = version_obj
-                        has_patched_in_release = True
-                else:
-                    if not has_standard_in_release and base_version not in standard_versions_dict:
-                        standard_versions_dict[base_version] = version_obj
-                        has_standard_in_release = True
+                if not has_standard_in_release and base_version not in standard_versions_dict:
+                    standard_versions_dict[base_version] = version_obj
+                    has_standard_in_release = True
+                    break
 
     # Convert dictionaries back to lists and sort by date (descending)
     standard_versions = sorted(standard_versions_dict.values(), key=lambda x: x["date"], reverse=True)
-    patched_versions = sorted(patched_versions_dict.values(), key=lambda x: x["date"], reverse=True)
 
     # Update apps in source
+    source["apps"] = [app for app in source["apps"] if app["name"] == "Eevee Spotify"]
     for app in source["apps"]:
         if app["name"] == "Eevee Spotify":
+            app["bundleIdentifier"] = "com.spotify.client"
             app["versions"] = standard_versions
-        elif app["name"] == "Eevee Spotify (Patched)":
-            app["versions"] = patched_versions
 
     with open(SOURCE_FILE, "w") as f:
         json.dump(source, f, indent=2)

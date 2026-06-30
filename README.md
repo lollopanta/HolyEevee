@@ -16,8 +16,9 @@ https://raw.githubusercontent.com/lollopanta/HolyEevee/main/apps.json
 
 ## 📦 Included Apps
 
-- **Eevee Spotify**: Standard version (suitable for Sideloadly and other general methods).
-- **Eevee Spotify (Patched)**: Patched version (suitable for TrollStore or paid certificates).
+- **Eevee Spotify**: Standard version (suitable for SideStore, AltStore Classic, LiveContainer, Sideloadly, and other general methods).
+
+The upstream patched IPA is not listed in this AltStore/SideStore source because it currently uses the same bundle identifier as the standard IPA (`com.spotify.client`). Listing it as a separate app would make update detection unreliable.
 
 ### Supported sideloaders :
 **Use classic with :**
@@ -25,11 +26,11 @@ https://raw.githubusercontent.com/lollopanta/HolyEevee/main/apps.json
  - AltStore Classic
  - LiveContainer
 
-**Use patched with :**
+**Use patched upstream releases with :**
  - Feather (recommended*)
  - ESign
  - KSign
-- TrollApps
+ - TrollApps
 
 <small>*You can easily install an older version with long-click with Feather.</small>
 
