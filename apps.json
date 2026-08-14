@@ -17,6 +17,14 @@
       "tintColor": "#1ED760",
       "versions": [
         {
+          "version": "9.1.72",
+          "buildVersion": "917201896",
+          "date": "2026-08-14",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.72-6.6.7-2026-08-14-03-10-12/EeveeSpotify-9.1.72-ESR-6.6.7.ipa",
+          "size": 127311014,
+          "localizedDescription": "Build: 9.1.72-6.6.7-2026-08-14-03-10-12\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nNew Features:\r\n\r\nNone (idk if new roothide build counts)\r\n\r\nImproved :\r\n\r\nSupport for Spotify 9.1.66 and .68\r\n\r\n3 New icons, thx to all submitters\r\n\r\n\r\n**Non-Patched for SideStore, AltStore, sideloadly, LiveContainer, free leaked enterprise cert.\u201d**\r\n\r\n**Patched = for jailbroken, TrollStore or paid cert**\r\n\r\n**ESign will cause crash**\r\n\r\nDevelopement:\r\n\r\n@faroukbmiled\r\n\r\n@M0d-4\r\n\r\n@jaydenjcpy\r\n\r\n@estrogencat\r\n\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to receive news on development**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
+        },
+        {
           "version": "9.1.70",
           "buildVersion": "917001906",
           "date": "2026-08-08",
@@ -47,14 +55,6 @@
           "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.60-6.6.6-2026-07-04-07-38-28/EeveeSpotify-9.1.60-ESR-6.6.6.ipa",
           "size": 122284441,
           "localizedDescription": "Build: 9.1.60-6.6.6-2026-07-04-07-38-28\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nNew Features:\r\n\r\nSpicyLyrics([b9d3014](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated/commit/b9d301488653c7ca5ccc61d80dcbba293f9bce88))\r\n\r\nImproved :\r\n\r\nSupport for Spotify 9.1.60\r\n\r\nAll lyrics sources \r\n\r\nNew icons, thx to all submitters\r\n\r\n\r\n**Non-Patched for SideStore, AltStore, sideloadly, LiveContainer, free leaked enterprise cert.\u201d**\r\n\r\n**Patched = for jailbroken, or paid cert**\r\n\r\n**ESign will cause crash**\r\n\r\nCredits:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
-        },
-        {
-          "version": "9.1.58",
-          "buildVersion": "9.1.58",
-          "date": "2026-06-25",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/9.1.58-6.6.5-2026-06-25-19-38-45/EeveeSpotify-9.1.58-ESR-6.6.5.ipa",
-          "size": 117018239,
-          "localizedDescription": "Build: 9.1.58-6.6.5-2026-06-25-19-38-45\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nImproved :\r\n- Support for Spotify 9.1.56\r\n- LRCLIB lyrics\r\n\r\nNew Icons:\r\n- EvilSpotify \r\n- SpotifyMonochrome\r\n- Greenify\r\n- Eevify\r\n- SmallvileSpotify\r\n- MikuSpotify\r\n- SpotifyDarkBlue\r\n- SpotifyDeepGreen\r\n- SpotifyFrieren\r\n- Supermanify\r\n\r\nPatched vs Not Patched\r\nUse patched if you use a paid cert or troll store\r\n\r\nUse the non patched one for other methods like Sideloadly/Altstore/Sidestore\r\n\r\nCredits for this update:\r\n\r\n[Ryuk](https://github.com/faroukbmiled) \r\n\r\n[Mod4](https://github.com/M0d-4) \r\n\r\n[estrogencat](https://github.com/estrogencat)\r\n\r\nTrollFools .zip by [iOSVN](https://t.me/ioscrackvn)\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to recieve news on developement**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\r\n\n"
         }
       ]
     }
