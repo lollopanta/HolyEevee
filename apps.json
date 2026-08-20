@@ -17,12 +17,12 @@
       "tintColor": "#1ED760",
       "versions": [
         {
-          "version": "9.1.74",
-          "buildVersion": "917402018",
-          "date": "2026-08-19",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/6.6.8-LG-2026-08-19-20-04-41/EeveeSpotify-9.1.74-ESR-6.6.8-LG.ipa",
-          "size": 128330324,
-          "localizedDescription": "Build: 6.6.8-LG-2026-08-19-20-04-41\n\nLiquid Glass version\n"
+          "version": "9.1.78",
+          "buildVersion": "917800782",
+          "date": "2026-08-20",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/6.6.8-LG-2026-08-20-07-36-21/TestFlight-ES-9.1.78.1717-ESR-6.6.8-LG.ipa",
+          "size": 130476465,
+          "localizedDescription": "Build: 6.6.8-LG-2026-08-20-07-36-21\n\nLiquid Glass version\n"
         },
         {
           "version": "9.1.74",
