@@ -19,10 +19,10 @@
         {
           "version": "9.1.84",
           "buildVersion": "918402223",
-          "date": "2026-09-23",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/6.6.8-LG-2026-09-23-00-00-00/EeveeSpotify-9.1.84-ESR-6.6.8-LG.ipa",
-          "size": 135345693,
-          "localizedDescription": "Build: 6.6.8-LG-2026-09-23-00-00-00\n\n"
+          "date": "2026-10-02",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/6.6.8-2026-10-02-19-33-00/EeveeSpotify-9.1.84-ESR-6.6.8.ipa",
+          "size": 134648096,
+          "localizedDescription": "Build: 6.6.8-2026-10-02-19-33-00\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n# Release Notes:\r\n\r\nNew Features:\r\n\r\n- Clean Share Links 743f3dc\r\n- Prank for my friend 02fa97a\r\n\r\n\r\n\r\nImproved :\r\n\r\n- Support for Spotify 9.1.72 and .74\r\n- Crossfade can be fixed by enabling overwrite configuration, will find a better solution in the future\r\n\r\n\r\n**Non-Patched for SideStore, AltStore, sideloadly, LiveContainer, free leaked enterprise cert.\u201d**\r\n\r\n**Patched = for jailbroken, TrollStore or paid cert**\r\n\r\n**ESign will cause crash**\r\n\r\n@SideloadLabs team:\r\n@faroukbmiled\r\n@M0d-4\r\n@jaydenjcpy\r\n\r\nDonation Links:\r\n[faroukbmiled](https://buymeacoffee.com/axryuk)\r\n[jaydenjcpy](https://ko-fi.com/jaydenjcpy)\r\n[Mod4](https://ko-fi.com/mo0d4)\r\n\r\n\r\n**Join [TG channel](https://t.me/compiledipas) to receive news on development**\r\n\r\n**VIEW TXT FILE**\r\n\r\n\n"
         },
         {
           "version": "9.1.74",
