@@ -17,6 +17,14 @@
       "tintColor": "#1ED760",
       "versions": [
         {
+          "version": "9.1.90",
+          "buildVersion": "919002269",
+          "date": "2026-10-23",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/1.0.0-beta.14-LG-2026-10-23-12-41-54/EeveeSpotify-9.1.90-ESR-1.0.0-beta.14-LG.ipa",
+          "size": 129443235,
+          "localizedDescription": "Build: 1.0.0-beta.14-LG-2026-10-23-12-41-54\n\n**Vitrine 1.0.0-beta.14** on **Spotify 9.1.90**\n\n- `EeveeSpotify-9.1.90-ESR-1.0.0-beta.14-LG.ipa`: for SideStore\n- `EeveeSpotify-9.1.90-ESR-1.0.0-beta.14-LG-patched.ipa`: patched for signing with a certificate, so things like widgets and notifications work\n\nThe AltStore source reads these by name: `-LG.ipa` feeds Spotify Liquid Glass and\n`-LG-patched.ipa` feeds Spotify Liquid Glass patched.\n\nBuilt from 17c6c43e86fce1100085b2fa2e4b5741108ae0e1.\n\nmeowdy\n"
+        },
+        {
           "version": "9.1.92",
           "buildVersion": "919203058",
           "date": "2026-10-20",
