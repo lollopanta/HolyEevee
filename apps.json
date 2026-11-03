@@ -17,12 +17,12 @@
       "tintColor": "#1ED760",
       "versions": [
         {
-          "version": "1.0.0",
-          "buildVersion": "1.0.0",
-          "date": "2026-10-26",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/1.0.0-beta.16-LG-2026-10-26-11-29-04/EeveeSpotify-9.1.90-ESR-1.0.0-beta.16-LG.ipa",
-          "size": 129624907,
-          "localizedDescription": "Build: 1.0.0-beta.16-LG-2026-10-26-11-29-04\n\n**Vitrine 1.0.0-beta.16** on **Spotify 9.1.90**\n\n- `EeveeSpotify-9.1.90-ESR-1.0.0-beta.16-LG.ipa`: for SideStore\n- `EeveeSpotify-9.1.90-ESR-1.0.0-beta.16-LG-patched.ipa`: patched for signing with a certificate, so things like widgets and notifications work\n\nThe AltStore source reads these by name: `-LG.ipa` feeds Spotify Liquid Glass and\n`-LG-patched.ipa` feeds Spotify Liquid Glass patched.\n\nBuilt from 1c41915f92286f6122b6e40e6c049cc0b94bcc05.\n\nmeowdy\n"
+          "version": "9.1.90",
+          "buildVersion": "919002269",
+          "date": "2026-11-02",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/1.0.0-beta.16-LG-2026-11-02-19-05-21/EeveeSpotify-9.1.90-ESR-1.0.0-beta.16-LG.ipa",
+          "size": 129631512,
+          "localizedDescription": "Build: 1.0.0-beta.16-LG-2026-11-02-19-05-21\n\n**Vitrine 1.0.0-beta.16** on **Spotify 9.1.90**\n\n- `EeveeSpotify-9.1.90-ESR-1.0.0-beta.16-LG.ipa`: for SideStore\n- `EeveeSpotify-9.1.90-ESR-1.0.0-beta.16-LG-patched.ipa`: patched for signing with a certificate, so things like widgets and notifications work\n\nThe AltStore source reads these by name: `-LG.ipa` feeds Spotify Liquid Glass and\n`-LG-patched.ipa` feeds Spotify Liquid Glass patched.\n\nBuilt from 62168fff33895c6d80d86bd66202f88c6dcb7542.\n\nmeowdy\n"
         },
         {
           "version": "9.1.94",
