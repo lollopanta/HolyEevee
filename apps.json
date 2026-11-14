@@ -17,6 +17,14 @@
       "tintColor": "#1ED760",
       "versions": [
         {
+          "version": "9.1.94",
+          "buildVersion": "919401928",
+          "date": "2026-11-14",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/7.0.1-2026-11-14-16-35-37/EeveeSpotify-9.1.94-ESR-7.0.1.ipa",
+          "size": 128523999,
+          "localizedDescription": "Build: 7.0.1-2026-11-14-16-35-37\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n"
+        },
+        {
           "version": "9.1.90",
           "buildVersion": "919002269",
           "date": "2026-11-02",
