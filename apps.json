@@ -19,10 +19,10 @@
         {
           "version": "9.2.0",
           "buildVersion": "920002054",
-          "date": "2026-11-15",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/7.5.0-2026-11-15-20-05-41/EeveeSpotify-9.2.0-ESR-7.5.0.ipa",
-          "size": 146944361,
-          "localizedDescription": "Build: 7.5.0-2026-11-15-20-05-41\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\nChangelog\r\n\r\nFix ad blocking and premium patching, thanks to: https://github.com/SideloadLabs/EeveeSpotifyReincarnated/pull/241\r\n\r\nAdd download function thanks to: https://github.com/SideloadLabs/EeveeSpotifyReincarnated/pull/239\r\n\r\nIf issues happen with downloading do a clean install. (Downloads don't work if you're jailbroken and install the debs)\n"
+          "date": "2026-11-17",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/7.5.0-2026-11-17-01-25-09/EeveeSpotify-9.2.0-ESR-7.5.0.ipa",
+          "size": 149476256,
+          "localizedDescription": "Build: 7.5.0-2026-11-17-01-25-09\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n"
         },
         {
           "version": "9.1.94",
