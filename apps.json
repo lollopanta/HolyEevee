@@ -17,20 +17,20 @@
       "tintColor": "#1ED760",
       "versions": [
         {
+          "version": "9.2.2",
+          "buildVersion": "920202587",
+          "date": "2026-11-25",
+          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/7.5.0-2026-11-25-14-40-20/EeveeSpotify-9.2.2-ESR-7.5.0.ipa",
+          "size": 133116650,
+          "localizedDescription": "Build: 7.5.0-2026-11-25-14-40-20\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n"
+        },
+        {
           "version": "1.0.0",
           "buildVersion": "1.0.0",
           "date": "2026-11-24",
           "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/1.0.0-beta.17-LG-2026-11-24-03-23-02/EeveeSpotify-9.1.90-ESR-1.0.0-beta.17-LG.ipa",
           "size": 129994354,
           "localizedDescription": "Build: 1.0.0-beta.17-LG-2026-11-24-03-23-02\n\n**Vitrine 1.0.0-beta.17** on **Spotify 9.1.90**\n\n- `EeveeSpotify-9.1.90-ESR-1.0.0-beta.17-LG.ipa`: for SideStore\n- `EeveeSpotify-9.1.90-ESR-1.0.0-beta.17-LG-patched.ipa`: patched for signing with a certificate, so things like widgets and notifications work\n\nThe AltStore source reads these by name: `-LG.ipa` feeds Spotify Liquid Glass and\n`-LG-patched.ipa` feeds Spotify Liquid Glass patched.\n\nBuilt from e24b6192aa60b5907093fe4f63e2cb1bec1b6edf.\n\nhi vitrine beta 17\n"
-        },
-        {
-          "version": "9.2.0",
-          "buildVersion": "920002054",
-          "date": "2026-11-17",
-          "downloadURL": "https://github.com/estrogencat/EeveeIPA/releases/download/7.5.0-2026-11-17-23-31-29/EeveeSpotify-9.2.0-ESR-7.5.0.ipa",
-          "size": 149567615,
-          "localizedDescription": "Build: 7.5.0-2026-11-17-23-31-29\n\n# this might not be the latest changelog for the tweak version!\n\n* this only grabs from releases/latest as there is no changelog in actions. to check if it is newer than the release, go to commits in the original repo @ [GitHub](https://github.com/jaydenjcpy/EeveeSpotifyReincarnated) :P\n---\n### original changelog:\n\n"
         },
         {
           "version": "9.1.94",
